@@ -5,7 +5,7 @@
 숫자 야구를 자릿수(3~5)를 입력받아 strike/ball/out을 카운트하여 정답을 맞히는 프로그램   
 
 ## 개발 환경
-- ₩openjdk-23 Oracle OpenJDK 23₩   
+- openjdk-23 Oracle OpenJDK 23
 - **IDE** : Intellij   
 
 ## 주요 기능
