@@ -41,9 +41,9 @@ public class Main {
                 System.out.println("축하합니다. 정답입니다.");
                 break;
             }
-            if ((strike == 0)&&(ball == 0)) System.out.print("out");
-            if (strike != 0)  System.out.print(strike+" strike ");
-            if (ball != 0) System.out.print(ball+" ball ");
+            if (strike == 0 && ball == 0) System.out.print("out");
+            if (strike != 0)  System.out.print(strike + " strike ");
+            if (ball != 0) System.out.print(ball + " ball ");
             System.out.println();
         }
     }

@@ -43,7 +43,7 @@ public class BaseballGame {
             // 3. 시도횟수 증가
             trial++;
 
-            // 4. 스트라이크 개수 계산
+            // 4. 스트라이크. 볼 개수 계산
             for (int i=0;i<DIGITS;i++){
                 for (int j=0;j<DIGITS;j++){
                     if (record[i] == answerList.get(j)) {
