@@ -27,7 +27,7 @@ public class Main {
                 case 0:
                     System.out.println("설정하고자 하는 자리수를 입력하세요.");
                     digits = sc.nextInt();
-                    if (!(2 < digits && digits < 6)) continue; // 3자리 ~ 5자리만 입력 가능
+                    if (!(2 < digits && digits < 6)) break; // 3자리 ~ 5자리만 입력 가능
                 case 1:
                     BaseballGame game = new BaseballGame(digits);   // 객체 생성
                     trialList.add(game.play());     // 게임 진행
