@@ -11,13 +11,13 @@
 ## 주요 기능
 
 ### LV0
-**Main**
+**Main**   
 - 숫자 야구 컬렉션, 클래스 없이 구현   
 - 랜덤 세자리 값 생성 -> 테스트 -> 정답일 시 종료   
 
 ### LV123
-**Main**
-**- 자릿수 3으로 고정   **  
+**Main**    
+**자릿수 3으로 고정**     
 - 숫자 야구 BaseballGame 클래스로 분리하여 구현   
 - 정답 랜덤 값 생성시 HashSet 사용 -> ArrayList 에 저장   
 - 메뉴
@@ -25,15 +25,15 @@
 2. 시도 횟수 기록 출력   
 3. 반복 종료   
 
-**BaseballGame**
+**BaseballGame**   
 숫자 야구 BaseballGame 클래스   
 - 생성자 - 랜덤 정답 데이터 생성   
 - play() 메서드 - 숫자 야구 수행   
 - validInput() 메서드 - 테스트 값 유효성 검사(세 자리 수일 경우로 제한하여 구현)   
 
 ### LV4
-**Main**
-**- 자릿수 입력받음   **
+**Main**   
+**자릿수 입력받음**     
 - 숫자 야구 BaseballGame 클래스로 분리하여 구현
 - 정답 랜덤 값 생성시 HashSet 사용 -> ArrayList 에 저장
 - 메뉴
@@ -42,7 +42,7 @@
 2. 시도 횟수 기록 출력   
 3. 반복 종료
 
-**BaseballGame**
+**BaseballGame**   
 숫자 야구 BaseballGame 클래스   
 - 생성자 - 랜덤 정답 데이터 생성   
 - play() 메서드 - 숫자 야구 수행   
