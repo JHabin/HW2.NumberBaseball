@@ -11,11 +11,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int trialCnt = 1;
         while(true){
-            BaseballGame game = new BaseballGame();
             System.out.println("\n환영합니다! 원하시는 번호를 입력해주세요.");
-            System.out.println("1. 게임 시작하기 2. 게임 기록 보기 3. 종료하기");
+            System.out.println("0. 자릿수 설정 1. 게임 시작하기 2. 게임 기록 보기 3. 종료하기");
             int num = sc.nextInt();
-            if (num == 1) {
+            if (num == 0) {
+                System.out.println("설정하고자 하는 자리수를 입력하세요.");
+                int digits = sc.nextInt();
+                if (2 < digits && digits < 6) continue; // 3자리 ~ 5자리만 입력 가능
+                BaseballGame advancedGame = new BaseballGame(digits);
+                trialList.add(advancedGame.play());
+                continue;
+            }
+            else if (num == 1) {
+                BaseballGame game = new BaseballGame(DIGITS);
                 trialList.add(game.play());
                 continue;
             }
